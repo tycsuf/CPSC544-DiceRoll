@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dice Roll</string>
+    <string name="done">Done</string>
+    <string name="roll">Roll</string>
+    <string name="title_dice">Result</string>
+</resources>

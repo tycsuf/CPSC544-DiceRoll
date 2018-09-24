@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/tyau/Android/intent-dice/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/tyau/Android/intent-dice/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1,4,2,3",
+                        "startColumns": "2,4,2,4",
+                        "startOffsets": "14,143,59,97",
+                        "endColumns": "44,37,35,45",
+                        "endOffsets": "56,176,92,138"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,102,140,178",
+                        "endColumns": "46,37,37,45",
+                        "endOffsets": "97,135,173,219"
+                    }
+                }
+            ]
+        }
+    ]
+}

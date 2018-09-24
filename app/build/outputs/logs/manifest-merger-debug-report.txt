@@ -1,0 +1,65 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml:1:1-19:12
+INJECTED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml:1:1-19:12
+INJECTED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml:1:1-19:12
+INJECTED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml:1:1-19:12
+INJECTED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml:1:1-19:12
+INJECTED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml:1:1-19:12
+INJECTED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml:1:1-19:12
+	package
+		ADDED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml:3:5-40
+		INJECTED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml:1:1-19:12
+		INJECTED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml:1:1-19:12
+		INJECTED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml:2:5-63
+application
+ADDED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml:4:3-18:17
+	android:label
+		ADDED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml:5:5-37
+	android:icon
+		ADDED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml:6:5-39
+activity#com.sqisland.android.dice.MainActivity
+ADDED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml:7:5-14:16
+	android:label
+		ADDED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml:9:9-41
+	android:name
+		ADDED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml:8:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml:10:7-13:23
+action#android.intent.action.MAIN
+ADDED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml:11:9-60
+	android:name
+		ADDED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml:11:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml:12:9-68
+	android:name
+		ADDED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml:12:19-66
+activity#com.sqisland.android.dice.DiceActivity
+ADDED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml:15:5-17:45
+	android:label
+		ADDED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml:17:9-43
+	android:name
+		ADDED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml:16:9-37
+uses-sdk
+INJECTED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml
+INJECTED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml
+INJECTED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml
+INJECTED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tyau/Android/intent-dice/app/src/main/AndroidManifest.xml
