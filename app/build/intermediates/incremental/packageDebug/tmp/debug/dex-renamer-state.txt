@@ -1,4 +1,4 @@
-#Wed Sep 19 16:21:27 PDT 2018
-base.0=/Users/tyau/Android/intent-dice/app/build/intermediates/transforms/dexMerger/debug/18
+#Tue Sep 25 22:21:38 PDT 2018
+base.0=/Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/build/intermediates/transforms/dexMerger/debug/19
 path.0=classes.dex
 renamed.0=classes.dex
