@@ -8,6 +8,10 @@
         "source": "/Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/build/intermediates/res/merged/debug/layout_activity_result.xml.flat",
+        "source": "/Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/res/layout/activity_result.xml"
+    },
+    {
         "merged": "/Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },

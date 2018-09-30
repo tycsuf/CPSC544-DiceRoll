@@ -12,6 +12,7 @@ public class MainActivity extends Activity {
   private static final int REQUEST_CODE_DICE = 1000;
   private TextView resultView;
   private int selectedNumber;
+  public static final String KEY_GAME_RESULT = "game_result";
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +35,14 @@ public class MainActivity extends Activity {
       }
     });
 
+    int gameResult = getIntent().getIntExtra(KEY_GAME_RESULT, 1);
+/**
+    try {
+      resultView.setText(Integer.toString(gameResult));
+    } catch (RuntimeException e) {
+      System.out.println(e);
+    }
+**/
   }
 
   private void roll(int selectedNumber) {

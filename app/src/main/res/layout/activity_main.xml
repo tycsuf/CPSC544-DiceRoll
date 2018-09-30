@@ -8,12 +8,45 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/WinLoss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110sp"
+        android:text="@string/tableColumns"
+        android:textSize="36sp"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/WinLoss"
+        android:text="@string/user_score"
+        android:textSize="36sp"/>
+
+    <TextView
+        android:id="@+id/resultCPU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/result"
+        android:text="@string/cpu_score"
+        android:textSize="36sp"/>
+
+    <TextView
+        android:id="@+id/drawCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resultCPU"
+        android:text="@string/draw_count"
+        android:textSize="36sp"/>
+
+    <TextView
         android:id="@+id/selectNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/drawCount"
         android:text="Select a number!"
+        android:layout_marginTop="48sp"
         android:textSize="48sp"/>
 
     <Spinner
@@ -26,19 +59,11 @@
         android:dropDownWidth="50sp"
         android:spinnerMode="dropdown" />
 
-    <TextView
-        android:id="@+id/result"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/spinner1"
-        android:layout_centerHorizontal="true"
-        android:textSize="48sp"/>
-
     <Button
         android:id="@+id/roll_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/result"
+        android:layout_below="@+id/spinner1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="0dp"
         android:text="@string/roll"

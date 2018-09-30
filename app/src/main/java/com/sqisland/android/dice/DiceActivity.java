@@ -9,6 +9,7 @@ import android.widget.TextView;
 import java.util.Random;
 
 public class DiceActivity extends Activity {
+  private static final int REQUEST_CODE_RESULT = 2000;
   public static final String KEY_NUM_DICE = "num_dice";
   public static final String KEY_TOTAL = "total";
   public static final String KEY_SELECTED_NUM = "selected_num";
@@ -24,18 +25,19 @@ public class DiceActivity extends Activity {
     TextView userSelectedView = (TextView) findViewById(R.id.userSelected);
     TextView userTotalView = (TextView) findViewById(R.id.userTotal);
     TextView resultView = (TextView) findViewById(R.id.result);
-    View doneButton = findViewById(R.id.done_button);
+    View nextButton = findViewById(R.id.next_button);
 
     int numDice = getIntent().getIntExtra(KEY_NUM_DICE, 1);
     int selectedNumber = getIntent().getIntExtra(KEY_SELECTED_NUM, 1);
 
-    doneButton.setOnClickListener(new View.OnClickListener() {
+    nextButton.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        Intent data = new Intent();
-        data.putExtra(KEY_TOTAL, total);
-        setResult(Activity.RESULT_OK, data);
-        finish();
+        next();
+        //Intent data = new Intent();
+        //data.putExtra(KEY_TOTAL, total);
+        //setResult(Activity.RESULT_OK, data);
+        //finish();
       }
     });
 
@@ -82,5 +84,13 @@ public class DiceActivity extends Activity {
 
   private int rollOne() {
     return random.nextInt(6) + 1;
+  }
+
+  private void next() {
+    Intent intent = new Intent(this, ResultActivity.class);
+    intent.putExtra(ResultActivity.KEY_USER_TOTAL, userTotal);
+    intent.putExtra(ResultActivity.KEY_CPU_TOTAL, total);
+    //startActivity(intent);
+    startActivityForResult(intent, REQUEST_CODE_RESULT);
   }
 }

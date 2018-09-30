@@ -14,6 +14,14 @@
     </activity>
     <activity
         android:name=".DiceActivity"
-        android:label="@string/title_dice"/>
+        android:label="@string/title_dice">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+    </activity>
+    <activity
+        android:name=".ResultActivity"
+        android:label="@string/result_name"/>
   </application>
 </manifest>

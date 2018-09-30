@@ -6,18 +6,18 @@
                 {
                     "source": "/Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "1,4,2,3",
-                        "startColumns": "2,4,2,4",
-                        "startOffsets": "14,143,59,97",
-                        "endColumns": "44,37,35,45",
-                        "endOffsets": "56,176,92,138"
+                        "startLines": "-1,-1,-1,10,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,2,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,402,-1,-1,-1,-1,-1,-1",
+                        "endColumns": "-1,-1,-1,44,-1,-1,-1,-1,-1,-1",
+                        "endOffsets": "-1,-1,-1,444,-1,-1,-1,-1,-1,-1"
                     },
                     "to": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,102,140,178",
-                        "endColumns": "46,37,37,45",
-                        "endOffsets": "97,135,173,219"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,102,146,184,231,269,321,360,413,459",
+                        "endColumns": "46,43,37,46,37,51,38,52,45,44",
+                        "endOffsets": "97,141,179,226,264,316,355,408,454,499"
                     }
                 }
             ]
