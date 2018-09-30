@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
@@ -24,6 +26,11 @@ public class MainActivity extends Activity {
         roll();
       }
     });
+
+    Spinner dropdown = (Spinner)findViewById(R.id.spinner1);
+    String[] items = new String[]{"1", "2", "3", "4", "5", "6"};
+    ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, items);
+    dropdown.setAdapter(adapter);
   }
 
   private void roll() {
