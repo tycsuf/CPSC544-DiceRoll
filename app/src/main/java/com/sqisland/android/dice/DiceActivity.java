@@ -11,18 +11,23 @@ import java.util.Random;
 public class DiceActivity extends Activity {
   public static final String KEY_NUM_DICE = "num_dice";
   public static final String KEY_TOTAL = "total";
+  public static final String KEY_SELECTED_NUM = "selected_num";
   private Random random = new Random();
   private int total;
+  private int userTotal;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_dice);
 
+    TextView userSelectedView = (TextView) findViewById(R.id.userSelected);
+    TextView userTotalView = (TextView) findViewById(R.id.userTotal);
     TextView resultView = (TextView) findViewById(R.id.result);
     View doneButton = findViewById(R.id.done_button);
 
     int numDice = getIntent().getIntExtra(KEY_NUM_DICE, 1);
+    int selectedNumber = getIntent().getIntExtra(KEY_SELECTED_NUM, 1);
 
     doneButton.setOnClickListener(new View.OnClickListener() {
       @Override
@@ -34,6 +39,8 @@ public class DiceActivity extends Activity {
       }
     });
 
+    userSelectedView.setText("User selected: '" + selectedNumber + "'");
+    setUserTotal(userTotalView, selectedNumber);
     rollAll(resultView, numDice);
 
     //int result = rollOne();
@@ -41,8 +48,18 @@ public class DiceActivity extends Activity {
     //resultView.setText(text);
   }
 
+  private void setUserTotal(TextView textView, int selectedNumber) {
+    StringBuilder builder = new StringBuilder();
+    builder.append("User: '");
+    int rolledNumber = rollOne();
+    userTotal = selectedNumber + rolledNumber;
+    builder.append(selectedNumber).append("' + ").append(rolledNumber).append(" = ").append(userTotal);
+    textView.setText(builder.toString());
+  }
+
   private void rollAll(TextView textView, int numDice) {
     StringBuilder builder = new StringBuilder();
+    builder.append("CPU: ");
     total = 0;
     for (int i = 0; i < numDice; i++) {
       int result = rollOne();

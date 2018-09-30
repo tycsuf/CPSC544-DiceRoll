@@ -14,6 +14,8 @@ public final class R {
     public static final int roll_button=0x7f010002;
     public static final int selectNumber=0x7f010003;
     public static final int spinner1=0x7f010004;
+    public static final int userSelected=0x7f010005;
+    public static final int userTotal=0x7f010006;
   }
   public static final class layout {
     public static final int activity_dice=0x7f020000;
