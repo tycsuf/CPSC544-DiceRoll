@@ -11,14 +11,19 @@ public final class R {
   public static final class id {
     public static final int WinLoss=0x7f010000;
     public static final int drawCount=0x7f010001;
-    public static final int next_button=0x7f010002;
-    public static final int result=0x7f010003;
-    public static final int resultCPU=0x7f010004;
-    public static final int roll_button=0x7f010005;
-    public static final int selectNumber=0x7f010006;
-    public static final int spinner1=0x7f010007;
-    public static final int userSelected=0x7f010008;
-    public static final int userTotal=0x7f010009;
+    public static final int gameResult=0x7f010002;
+    public static final int moddedCPU=0x7f010003;
+    public static final int moddedUser=0x7f010004;
+    public static final int next_button=0x7f010005;
+    public static final int playAgain=0x7f010006;
+    public static final int quit_button=0x7f010007;
+    public static final int result=0x7f010008;
+    public static final int resultCPU=0x7f010009;
+    public static final int roll_button=0x7f01000a;
+    public static final int selectNumber=0x7f01000b;
+    public static final int spinner1=0x7f01000c;
+    public static final int userSelected=0x7f01000d;
+    public static final int userTotal=0x7f01000e;
   }
   public static final class layout {
     public static final int activity_dice=0x7f020000;
@@ -33,11 +38,16 @@ public final class R {
     public static final int cpu_score=0x7f040001;
     public static final int done=0x7f040002;
     public static final int draw_count=0x7f040003;
-    public static final int next=0x7f040004;
-    public static final int result_name=0x7f040005;
-    public static final int roll=0x7f040006;
-    public static final int tableColumns=0x7f040007;
-    public static final int title_dice=0x7f040008;
-    public static final int user_score=0x7f040009;
+    public static final int modded_cpu_value=0x7f040004;
+    public static final int modded_user_value=0x7f040005;
+    public static final int next=0x7f040006;
+    public static final int play_again=0x7f040007;
+    public static final int quit=0x7f040008;
+    public static final int replay=0x7f040009;
+    public static final int result_name=0x7f04000a;
+    public static final int roll=0x7f04000b;
+    public static final int tableColumns=0x7f04000c;
+    public static final int title_dice=0x7f04000d;
+    public static final int user_score=0x7f04000e;
   }
 }

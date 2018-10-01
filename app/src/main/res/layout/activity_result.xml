@@ -3,16 +3,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
     android:layout_gravity="center"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".ResultActivity">
 
+    <TextView
+        android:id="@+id/moddedUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="36sp"/>
+
+    <TextView
+        android:id="@+id/moddedCPU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="36sp"/>
+
+    <TextView
+        android:id="@+id/gameResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24sp"
+        android:textSize="36sp"/>
+
+    <TextView
+        android:id="@+id/playAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/play_again"
+        android:layout_marginTop="24sp"
+        android:textSize="36sp"/>
+
     <Button
         android:id="@+id/next_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
         android:textSize="28sp"
-        android:text="@string/next"/>
+        android:text="@string/replay"/>
+
+    <Button
+        android:id="@+id/quit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/quit"
+        android:textSize="28sp" />
 </LinearLayout>

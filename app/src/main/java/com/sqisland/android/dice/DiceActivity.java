@@ -13,6 +13,11 @@ public class DiceActivity extends Activity {
   public static final String KEY_NUM_DICE = "num_dice";
   public static final String KEY_TOTAL = "total";
   public static final String KEY_SELECTED_NUM = "selected_num";
+  public static final String KEY_USER_WINS = "user_wins";
+  public static final String KEY_USER_LOSSES = "user_losses";
+  public static final String KEY_CPU_WINS = "cpu_wins";
+  public static final String KEY_CPU_LOSSES = "cpu_losses";
+  public static final String KEY_DRAWS = "draws";
   private Random random = new Random();
   private int total;
   private int userTotal;
@@ -90,6 +95,11 @@ public class DiceActivity extends Activity {
     Intent intent = new Intent(this, ResultActivity.class);
     intent.putExtra(ResultActivity.KEY_USER_TOTAL, userTotal);
     intent.putExtra(ResultActivity.KEY_CPU_TOTAL, total);
+    intent.putExtra(ResultActivity.KEY_USER_WINS, getIntent().getIntExtra(KEY_USER_WINS, 0));
+    intent.putExtra(ResultActivity.KEY_USER_LOSSES, getIntent().getIntExtra(KEY_USER_LOSSES, 0));
+    intent.putExtra(ResultActivity.KEY_CPU_WINS, getIntent().getIntExtra(KEY_CPU_WINS, 0));
+    intent.putExtra(ResultActivity.KEY_CPU_LOSSES, getIntent().getIntExtra(KEY_CPU_LOSSES, 0));
+    intent.putExtra(ResultActivity.KEY_DRAWS, getIntent().getIntExtra(KEY_DRAWS, 0));
     //startActivity(intent);
     startActivityForResult(intent, REQUEST_CODE_RESULT);
   }
