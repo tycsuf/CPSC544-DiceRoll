@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/tyau/Android/intent-dice/app/src/main/assets"/><source path="/Users/tyau/Android/intent-dice/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/tyau/Android/intent-dice/app/src/debug/assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/assets"/><source path="/Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/debug/assets"/></dataSet></merger>
