@@ -1,71 +1,77 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:1:1-27:12
+ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:1:1-30:12
 MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.15] /Users/tyau/.gradle/caches/transforms-1/files-1.1/android-gif-drawable-1.2.15.aar/91dd016c2cb927cc367503e3cc875db2/AndroidManifest.xml:2:1-10:12
-INJECTED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:1:1-30:12
 	package
 		ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:3:5-40
 		INJECTED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml
-		ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:1:1-27:12
+		ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:1:1-30:12
 		INJECTED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml
-		ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:1:1-27:12
+		ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:1:1-30:12
 		INJECTED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:2:5-63
 application
-ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:4:3-26:17
+ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:4:3-29:17
 	android:label
 		ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:5:5-37
 	android:icon
 		ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:6:5-39
 activity#com.sqisland.android.dice.MainActivity
-ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:7:5-14:16
+ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:7:5-15:16
+	android:screenOrientation
+		ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:9:9-45
 	android:label
-		ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:9:9-41
+		ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:10:9-41
 	android:name
 		ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:8:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:10:7-13:23
+ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:11:7-14:23
 action#android.intent.action.MAIN
-ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:11:9-60
+ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:12:9-60
 	android:name
-		ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:11:17-58
+		ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:12:17-58
 category#android.intent.category.LAUNCHER
-ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:12:9-68
+ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:13:9-68
 	android:name
-		ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:12:19-66
+		ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:13:19-66
 activity#com.sqisland.android.dice.DiceActivity
-ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:15:5-22:16
+ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:16:5-24:16
+	android:screenOrientation
+		ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:18:9-45
 	android:label
-		ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:17:9-43
+		ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:19:9-43
 	android:name
-		ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:16:9-37
+		ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:17:9-37
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT
-ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:18:7-21:23
+ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:20:7-23:23
 action#android.intent.action.VIEW
-ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:19:9-60
+ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:21:9-60
 	android:name
-		ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:19:17-58
+		ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:21:17-58
 category#android.intent.category.DEFAULT
-ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:20:9-67
+ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:22:9-67
 	android:name
-		ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:20:19-65
+		ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:22:19-65
 activity#com.sqisland.android.dice.ResultActivity
-ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:23:5-25:46
+ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:25:5-28:46
+	android:screenOrientation
+		ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:27:9-45
 	android:label
-		ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:25:9-44
+		ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:28:9-44
 	android:name
-		ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:24:9-39
+		ADDED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml:26:9-39
 uses-sdk
 INJECTED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/AndroidManifest.xml
