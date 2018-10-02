@@ -9,6 +9,13 @@
     android:orientation="vertical"
     tools:context=".ResultActivity">
 
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifView"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/win"
+        />
+
     <TextView
         android:id="@+id/moddedUser"
         android:layout_width="wrap_content"

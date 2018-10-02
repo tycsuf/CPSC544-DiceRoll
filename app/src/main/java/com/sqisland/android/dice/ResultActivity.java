@@ -6,6 +6,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import java.io.IOException;
+
+import pl.droidsonroids.gif.GifDrawable;
+import pl.droidsonroids.gif.GifImageView;
+
 public class ResultActivity extends Activity {
   public static final String KEY_USER_TOTAL = "user_total";
   public static final String KEY_CPU_TOTAL = "cpu_total";
@@ -30,6 +35,8 @@ public class ResultActivity extends Activity {
     View nextButton = findViewById(R.id.next_button);
     View quitButton = findViewById(R.id.quit_button);
 
+    GifImageView gifView = (GifImageView)findViewById(R.id.gifView);
+
     userTotal = getIntent().getIntExtra(KEY_USER_TOTAL, 1);
     cpuTotal = getIntent().getIntExtra(KEY_CPU_TOTAL, 1);
     int moddedUserTotal = userTotal % 6;
@@ -41,12 +48,15 @@ public class ResultActivity extends Activity {
     if (moddedUserTotal > moddedCpuTotal) {
       whoWon = 1;
       gameResultView.setText("YOU WIN!!");
+      gifView.setImageResource(R.drawable.win);
     } else if (moddedUserTotal < moddedCpuTotal) {
       whoWon = 2;
       gameResultView.setText("YOU LOSE, BUMMER..");
+      gifView.setImageResource(R.drawable.loss);
     } else {
       whoWon = 3;
       gameResultView.setText("IT'S A DRAW!");
+      gifView.setImageResource(R.drawable.draw);
     }
 
     nextButton.setOnClickListener(new View.OnClickListener() {
