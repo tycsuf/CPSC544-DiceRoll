@@ -8,6 +8,18 @@
         "source": "/Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/build/intermediates/res/merged/debug/layout_activity_result.xml.flat",
+        "source": "/Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/res/layout/activity_result.xml"
+    },
+    {
+        "merged": "/Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/build/intermediates/res/merged/debug/drawable_win.gif.flat",
+        "source": "/Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/res/drawable/win.gif"
+    },
+    {
+        "merged": "/Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/build/intermediates/res/merged/debug/drawable_draw.gif.flat",
+        "source": "/Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/res/drawable/draw.gif"
+    },
+    {
         "merged": "/Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
@@ -18,6 +30,10 @@
     {
         "merged": "/Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/build/intermediates/res/merged/debug/drawable_loss.gif.flat",
+        "source": "/Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/src/main/res/drawable/loss.gif"
     },
     {
         "merged": "/Users/tyau/Android/CPSC544-DiceRoll/CPSC544-DiceRoll/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",

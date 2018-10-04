@@ -1,6 +1,17 @@
 <resources>
-  <string name="app_name">Dice Roll</string>
-  <string name="roll">Roll</string>
-    <string name="title_dice">Result</string>
-    <string name="done">Done</string>
+  <string name="app_name">Dice Game</string>
+  <string name="roll">Roll!</string>
+  <string name="title_dice">Dice Have Been Rolled!</string>
+  <string name="done">Done</string>
+  <string name="result_name">Game Results</string>
+  <string name="next">Next</string>
+  <string name="replay">Yes</string>
+  <string name="quit">Quit</string>
+  <string name="tableColumns">WINS LOSSES</string>
+  <string name="user_score">YOU: </string>
+  <string name="cpu_score">CPU: </string>
+  <string name="draw_count">DRAWS: </string>
+  <string name="modded_user_value">Your final value: </string>
+  <string name="modded_cpu_value">CPUs final value: </string>
+  <string name="play_again">Play Again?</string>
 </resources>

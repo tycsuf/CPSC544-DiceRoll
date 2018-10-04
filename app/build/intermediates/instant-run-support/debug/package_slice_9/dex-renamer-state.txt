@@ -1,4 +1,0 @@
-#Mon Aug 27 16:43:48 PDT 2018
-base.0=/Users/tyau/Android/intent-dice/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9
-renamed.0=classes.dex
-file.0=/Users/tyau/Android/intent-dice/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex

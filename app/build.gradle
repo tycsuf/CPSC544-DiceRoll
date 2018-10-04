@@ -6,9 +6,19 @@ android {
 
   defaultConfig {
     applicationId "com.sqisland.android.dice"
-    minSdkVersion 1
+    minSdkVersion 14
     targetSdkVersion 25
     versionCode 1
     versionName '1.0.0'
   }
+}
+
+allprojects {
+  repositories {
+    mavenCentral()
+  }
+}
+
+dependencies {
+  compile 'pl.droidsonroids.gif:android-gif-drawable:1.2.+'
 }
